@@ -1,0 +1,41 @@
+body {
+    background-color: #fffc83;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+
+main > img {
+    max-height: 20em;
+    display: block;
+    margin: auto;
+    margin-top: 3em;
+}
+
+main > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+ul li img {
+    max-height: 7em;
+    margin: 2em;
+}
